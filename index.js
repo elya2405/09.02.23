@@ -25,3 +25,33 @@ function num(f) {
 num(5);
 num(10);
 num("iphone");
+
+//функция которая считает от первого числа до второго
+function countup(a, b) {
+  let number = a;
+  while (number <= b) {
+    console.log(number);
+    number++;
+  }
+}
+countup(5, 10);
+countup(-10, 10);
+
+//функция отчет
+function countdown(a, b) {
+  let number = a;
+  while (number >= b) {
+    console.log(number);
+    number--;
+  }
+}
+countdown(10, 5);
+countdown(10, -10);
+
+function count(a, b) {
+  if (a < b) {
+    countup(a, b);
+  } else {
+    countdown(a, b);
+  }
+}
