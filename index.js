@@ -59,3 +59,6 @@ function count(a, b) {
 //массив вывести имена
 let names = ["Aidai", "Bakyt", "Joldosh"];
 console.log(names);
+console.log(names[0]);
+console.log(names[1]);
+console.log(names[2]);
