@@ -55,3 +55,7 @@ function count(a, b) {
     countdown(a, b);
   }
 }
+
+//массив вывести имена
+let names = ["Aidai", "Bakyt", "Joldosh"];
+console.log(names);
