@@ -57,7 +57,7 @@ function count(a, b) {
 }
 
 //массив вывести имена
-let names = ["Aidai", "Bakyta", "Joldosh"];
+let names = ["Aidai", "Bakyt", "Joldosh"];
 for (i = 0; i < names.length; i++) {
   console.log("your name is " + names[i]);
 }
@@ -71,3 +71,10 @@ for (i = names.length - 1; i >= 0; i--) {
 for (i = 0; i < names.length; i++) {
   console.log(names[i].length);
 }
+
+//вывести общую длинну имен
+let result = "";
+for (let i = 0; i < names.length; i++) {
+  result = result + names[i];
+}
+console.log(result.length);
