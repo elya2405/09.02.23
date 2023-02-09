@@ -1,5 +1,6 @@
-function sum (a, b) {
+// сумма двух чисел
+function sum(a, b) {
   let result = a + b;
-  console.log(result)
+  console.log(result);
 }
-let x = (10, 40);
+let x = sum(10, 40);
