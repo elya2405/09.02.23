@@ -78,3 +78,17 @@ for (let i = 0; i < names.length; i++) {
   result = result + names[i];
 }
 console.log(result.length);
+
+//removeDupLicates([4, 6, 11, 6, 4, 19, 6]); //[4, 6, 11, 19];
+
+const array1 = [4, 6, 11, 6, 4, 19, 6];
+const uniqArray1 = [...new Set(array1)];
+console.log(uniqArray1);
+
+//removeDupLicates(["a", "a", "c", "b", "c", "a"]); //["a", "b", "c"];
+
+const array2 = ["a", "a", "c", "b", "c", "a"];
+const uniqArray2 = array2.filter((item, index) => {
+  return index === array2.indexOf(item);
+});
+console.log(uniqArray2);
